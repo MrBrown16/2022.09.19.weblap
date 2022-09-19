@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
 box-sizing: border-box;
 margin: 0%;
@@ -9,15 +11,50 @@ background-color: #EC8601;
 
 }
 #container{
-    width: 800;
+    max-width: 80%;
     margin: 0 auto;
+}
+#header{
+    margin: 40px 0;
+}
+#navbar ul{
+    list-style-type: none;
+    
 }
 #navbar ul li{
 float:left;
+width: 20%;
+text-align: center;
+border-left: 10px double;
 
+border-color: black;
+}
+#navbar ul li:last-child{
+border-right: 10px double;
+border-color: black;
+}
+#navbar ul li a{
+    padding: 20%;
+    display: inline-block;
+text-decoration: none;
+color: rgba(43, 255, 0, 0.795);
+width: 100%;
+}
+#navbar ul li a:hover{
+color: red;
+text-decoration: underline;
 }
 ul::after {
     content: "";
     clear: both;
     display: table;
   }
+#content{
+    margin-top: 30px;
+
+}
+.column{
+    width:49.999999%;
+    padding: 0 10px;
+    line-height: 1.6;
+}
