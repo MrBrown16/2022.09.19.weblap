@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 *{
-box-sizing: border-box;
+box-sizing: content-box;
 margin: 0%;
 padding: 0%;
 }
@@ -11,31 +11,39 @@ background-color: #EC8601;
 
 }
 #container{
-    max-width: 80%;
+    max-width: 85%;
     margin: 0 auto;
 }
 #header{
-    margin: 40px 0;
+    padding: 2.5%;
 }
-
+#navbar{
+     align-self: center;
+    width: 15%;
+    height: auto;
+    position: fixed;
+    float: left;
+}
 #navbar ul{
-    list-style-type: none;
-
-    
+   margin-left: 3%;
+   
 }
 #navbar ul li{
-
-float:left;
-
-
-border-color: black;
+    padding: 10px;
+    align-self: center;
+    background-color: black;
+    background-clip: content-box;
+    border-radius: 25px;
 }
 #navbar ul li a{
+   text-size-adjust: 0;
     padding: 20%;
+    
     display: block;
 text-decoration: none;
 color: rgba(43, 255, 0, 0.795);
-width: 100%;
+text-align: center;
+
 }
 #navbar ul li a:hover{
 color: red;
@@ -47,11 +55,21 @@ ul::after {
     display: table;
   }
 #content{
-    margin-top: 30px;
-
+    float: right;
+    width: 84.99999%;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 .column{
-    width:49.999999%;
-    padding: 0 10px;
+    padding: 0 20px;
     line-height: 1.6;
+
+}
+#footer{
+    width: 79.99999%;
+    margin: 30px;
+    float: right;
+    overflow-x: auto;
+    overflow-y: auto;
+    text-align:justify;
 }
