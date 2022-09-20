@@ -17,25 +17,22 @@ background-color: #EC8601;
 #header{
     margin: 40px 0;
 }
+
 #navbar ul{
     list-style-type: none;
+
     
 }
 #navbar ul li{
-float:left;
-width: 20%;
-text-align: center;
-border-left: 10px double;
 
-border-color: black;
-}
-#navbar ul li:last-child{
-border-right: 10px double;
+float:left;
+
+
 border-color: black;
 }
 #navbar ul li a{
     padding: 20%;
-    display: inline-block;
+    display: block;
 text-decoration: none;
 color: rgba(43, 255, 0, 0.795);
 width: 100%;
